@@ -110,14 +110,14 @@ Metrics: Gross Conversion and Net Conversion
 Since the metric is measured the performance of the past 14 days, I will ignore the data of last 14 days .
 
 **Gross Conversion**:
-Probability of Control Group: Sum(enroll) / Sum(clicks) = 0.2189
-Probability of Experiment Group: Sum(enroll) / Sum(clicks) = 0.1983
-Diff: P(Exp) - P(Cont) = 0.1983- 0.2189 = -0.0206
-P(pool): [Cont(enroll) + Exp(enroll)] / [Cont(clicks) + Exp(clicks)] = 0.2086
-SD (SE): Sqrt(pool * (1-pool) * [1/Cont(clicks) + 1/(Exp(clicks)] = 0.0044
-Margin: Z * SD = 1.96 *SD =  0.0086
-Lower: -0.0291
-Upper: -0.0120
+- Probability of Control Group: Sum(enroll) / Sum(clicks) = 0.2189
+- Probability of Experiment Group: Sum(enroll) / Sum(clicks) = 0.1983
+- Diff: P(Exp) - P(Cont) = 0.1983- 0.2189 = -0.0206
+- P(pool): [Cont(enroll) + Exp(enroll)] / [Cont(clicks) + Exp(clicks)] = 0.2086
+- SD (SE): Sqrt(pool * (1-pool) * [1/Cont(clicks) + 1/(Exp(clicks)] = 0.0044
+- Margin: Z * SD = 1.96 *SD =  0.0086
+- Lower: -0.0291
+- Upper: -0.0120
 Since the confidence interval does not include 0, it is statistically significant.
 The confidence interval does not include practical significance, it is practically significant
 
@@ -137,7 +137,7 @@ For each of your evaluation metrics, do a sign test using the day-by-day data, a
 
 https://www.graphpad.com/quickcalcs/binomial2/
 Calculate the number of metrics that experiment group is greater than control group
-!(https://github.com/ShuangyangWu1/test-/blob/main/Sign%20Test.png)
+!(https://github.com/ShuangyangWu1/test-/blob/f745643c7a86ba69885d636be9ffbd1900500a37/Sign%20Test.png)
 
 
 Summary
