@@ -135,18 +135,20 @@ Neither statistically significant Nor practically significant
 ### 2.Sign Tests
 For each of your evaluation metrics, do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant. (These should be the answers from the "Sign Tests" quiz.)
 
-https://www.graphpad.com/quickcalcs/binomial2/
 
 Calculate the number of metrics that experiment group is greater than control group
 ![Sign Test](https://github.com/ShuangyangWu1/test-/blob/f745643c7a86ba69885d636be9ffbd1900500a37/Sign%20Test.png)
 
+Use this link https://www.graphpad.com/quickcalcs/binomial2/ to calculate p-value
 
-Summary
+## Summary
 State whether you used the Bonferroni correction, and explain why or why not. If there are any discrepancies between the effect size hypothesis tests and the sign tests, describe the discrepancy and why you think it arose.
 
-Recommendation
-Make a recommendation and briefly describe your reasoning.
+I did not use the Bonferroni Correction since those metrics are correlated to each other. The Bonferroni correction method is too conservative in this case that increase the chances that accept the null hypothesis, which may impact the result of experiment. By doing the sanity check, the invariants metrics are all splited evenly. Therefore, we can dig deeper into the result analysis. The Gross Conversion is statistically significantly and practically significantly, but, Net Conversion is neither statistically significantly nor practically significantly. 
 
-Follow-Up Experiment
-Give a high-level description of the follow up experiment you would run, what your hypothesis would be, what metrics you would want to measure, what your unit of diversion would be, and your reasoning for these choices.
+## Recommendation
+
+Based on the result that I get above, I will suggest not to lauch since the result shows this experiment will not make the increase in the net conversion
+
+
 
