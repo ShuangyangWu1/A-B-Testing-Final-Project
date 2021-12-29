@@ -57,6 +57,7 @@ https://www.evanmiller.org/ab-testing/sample-size.html
 - Two group is 25835 * 2 = 51670
 - Since the unit is click and we need to calculate the overall page view. Based on the probability of click, 51670 / 0.08 = 645875
 - The page views are 645875
+
 **Retention**:
 - baseline : 0.53
 - Minimum detectable effect: 0.01 
@@ -64,6 +65,7 @@ https://www.evanmiller.org/ab-testing/sample-size.html
 - Two group is 39115 * 2 = 78230
 - Since the unit is enrolled, we need to calculate the overall page view. Based on the probability of enroll, 78230 /  = 4741212
 - The page views are 4741212
+
 **Net Conversion**:
 - baseline : 0.1093
 - Minimum detectable effect: 0.0075 
@@ -97,14 +99,17 @@ SD = Sqrt(mean * (1-mean) / (N1+N2)
 
 
 
-Result Analysis
-Effect Size Tests
+## Result Analysis
+### 1.Effect Size Tests
 For each of your evaluation metrics, give a 95% confidence interval around the difference between the experiment and control groups. Indicate whether each metric is statistically and practically significant. (These should be the answers from the "Effect Size Tests" quiz.)
+
+**Significance definitions**
+A metric is statistically significant if the confidence interval does not include 0 (that is, you can be confident there was a change), and it is practically significant if the confidence interval does not include the practical significance boundary (that is, you can be confident there is a change that matters to the business.)
 
 Metrics: Gross Conversion and Net Conversion
 Since the metric is measured the performance of the past 14 days, I will ignore the data of last 14 days .
 
-Example Gross Conversion:
+**Gross Conversion**:
 Probability of Control Group: Sum(enroll) / Sum(clicks) = 0.2189
 Probability of Experiment Group: Sum(enroll) / Sum(clicks) = 0.1983
 Diff: P(Exp) - P(Cont) = 0.1983- 0.2189 = -0.0206
@@ -116,15 +121,23 @@ Upper: -0.0120
 Since the confidence interval does not include 0, it is statistically significant.
 The confidence interval does not include practical significance, it is practically significant
 
-
-
+**Net Conversion**:
+P(cont): 0.1176
+P(exp): 0.1127
+Diff: -0.0049
+P(pool): 0.1151
+SE: 0.0034
+margin: 0.0067
+Lower: -0.0116
+Upper: 0.0019
+Neither statistically significant Nor practically significant
 
 Sign Tests
 For each of your evaluation metrics, do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant. (These should be the answers from the "Sign Tests" quiz.)
 
 https://www.graphpad.com/quickcalcs/binomial2/
 Calculate the number of metrics that experiment group is greater than control group
-
+!(https://github.com/ShuangyangWu1/test-/blob/main/Sign%20Test.png)
 
 
 Summary
