@@ -151,9 +151,7 @@ I did not use the Bonferroni Correction since those metrics are correlated to ea
 Based on the result that I get above, I will suggest not to lauch since the result shows this experiment will not make the increase in the net conversion
 
 
-Reference:
+Reference:  
 https://github.com/shubhamlal11/Udacity-AB-Testing-Final-Project/blob/master/README.md
-
-http://cyfz11.com/2020/03/22/Final%20Project/
-
-https://nancyyanyu.github.io/posts/8fdfc10f/
+  http://cyfz11.com/2020/03/22/Final%20Project/
+  https://nancyyanyu.github.io/posts/8fdfc10f/
