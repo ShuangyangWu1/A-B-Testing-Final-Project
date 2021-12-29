@@ -20,17 +20,16 @@ Any place "unique cookies" are mentioned, the uniqueness is determined by day. (
 Number of Cookies, Number of Clicks, Click through probability. 
 These metrics happen before the experiment starts. Therefore, it is important to split these metrics evenly. 
 #### Evaluation Metrics: 
-Hypothesis is that by setting the new feature, it will set expectations for students and filter out students who do not have enough time to learn. 
-Gross Conversion
-Decrease, filter out students who do not have time to study
-Retention 
-Retention may increase, if less students who are frustrated participate the course
-Net Conversion
+The hypothesis is that by setting the new feature, it will set expectations for students and filter out students who do not have enough time to learn. Therefore, we should choose metrics that can reflect the impact of this new feature. 
+
+Gross Conversion: Decrease, filter out students who do not have time to study
+Retention: Retention may increase, if less students who are frustrated participate the course
+Net Conversion: correlated to Gross Conversion
 
 
 
-Measuring Standard Deviation
-List the standard deviation of each of your evaluation metrics. (These should be the answers from the "Calculating standard deviation" quiz.)
+
+### Measuring Standard Deviation
 
 Based on the given sample size, 5000, the other data from google sheets. 
 The metric is probability, which follows the binomial distribution. 
