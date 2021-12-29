@@ -1,12 +1,21 @@
-# test-
-This is a test for my github.
-Template Format
-This template can be used to organize your answers to the final project. Items that should be copied from your answers to the quizzes should be given in blue.
-Experiment Design
-Metric Choice
-List which metrics you will use as invariant metrics and evaluation metrics here. (These should be the same metrics you chose in the "Choosing Invariant Metrics" and "Choosing Evaluation Metrics" quizzes.)
+# Udacity A/B Testing Final Project: Free Trial Screener
 
-Invariant Metrics: 
+##Metric Choice
+Which of the following metrics would you choose to measure for this experiment and why? For each metric you choose, indicate whether you would use it as an invariant metric or an evaluation metric. The practical significance boundary for each metric, that is, the difference that would have to be observed before that was a meaningful change for the business, is given in parentheses. All practical significance boundaries are given as absolute changes.
+
+
+Any place "unique cookies" are mentioned, the uniqueness is determined by day. (That is, the same cookie visiting on different days would be counted twice.) User-ids are automatically unique since the site does not allow the same user-id to enroll twice.
+
+
+- Number of cookies: That is, number of unique cookies to view the course overview page. (dmin=3000)
+- Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50)
+- Number of clicks: That is, number of unique cookies to click the "Start free trial" button (which happens before the free trial screener is trigger). (dmin=240)
+- Click-through-probability: That is, number of unique cookies to click the "Start free trial" button divided by number of unique cookies to view the course overview page. (dmin=0.01)
+- Gross conversion: That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. (dmin= 0.01)
+- Retention: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01)
+- Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075)
+
+###Invariant Metrics: 
 Number of Cookies, Number of Clicks, Click through probability. 
 These metrics happen before the experiment starts. Therefore, it is important to split these metrics evenly. 
 Evaluation Metrics: 
