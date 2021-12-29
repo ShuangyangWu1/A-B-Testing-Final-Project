@@ -1,6 +1,7 @@
 # Udacity A/B Testing Final Project: Free Trial Screener
 
-##Metric Choice
+## Experiment Design
+### Metric Choice
 Which of the following metrics would you choose to measure for this experiment and why? For each metric you choose, indicate whether you would use it as an invariant metric or an evaluation metric. The practical significance boundary for each metric, that is, the difference that would have to be observed before that was a meaningful change for the business, is given in parentheses. All practical significance boundaries are given as absolute changes.
 
 
@@ -15,10 +16,10 @@ Any place "unique cookies" are mentioned, the uniqueness is determined by day. (
 - Retention: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01)
 - Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075)
 
-###Invariant Metrics: 
+#### Invariant Metrics: 
 Number of Cookies, Number of Clicks, Click through probability. 
 These metrics happen before the experiment starts. Therefore, it is important to split these metrics evenly. 
-Evaluation Metrics: 
+#### Evaluation Metrics: 
 Hypothesis is that by setting the new feature, it will set expectations for students and filter out students who do not have enough time to learn. 
 Gross Conversion
 Decrease, filter out students who do not have time to study
