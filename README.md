@@ -92,7 +92,7 @@ For any sanity check that did not pass, explain your best guess as to what went 
 The mean probability of distribution should be 0.5, based on the SD and Z score, 1.96 , we can get the confidence level. If the confidence level includes the Observed value, then it is passed.
 
 SD = Sqrt(mean * (1-mean) / (N1+N2)
-
+![Sanity Check.png]
 
 
 
