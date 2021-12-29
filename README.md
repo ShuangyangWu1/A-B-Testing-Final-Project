@@ -152,8 +152,6 @@ Based on the result that I get above, I will suggest not to lauch since the resu
 
 
 Reference:  
-https://github.com/shubhamlal11/Udacity-AB-Testing-Final-Project/blob/master/README.md. 
-
+https://github.com/shubhamlal11/Udacity-AB-Testing-Final-Project/blob/master/README.md  
 http://cyfz11.com/2020/03/22/Final%20Project/. 
-
-https://nancyyanyu.github.io/posts/8fdfc10f/. 
+https://nancyyanyu.github.io/posts/8fdfc10f/.   
