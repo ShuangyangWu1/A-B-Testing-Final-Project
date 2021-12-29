@@ -122,20 +122,21 @@ Since the confidence interval does not include 0, it is statistically significan
 The confidence interval does not include practical significance, it is practically significant
 
 **Net Conversion**:
-P(cont): 0.1176
-P(exp): 0.1127
-Diff: -0.0049
-P(pool): 0.1151
-SE: 0.0034
-margin: 0.0067
-Lower: -0.0116
-Upper: 0.0019
+- P(cont): 0.1176
+- P(exp): 0.1127
+- Diff: -0.0049
+- P(pool): 0.1151
+- SE: 0.0034
+- margin: 0.0067
+- Lower: -0.0116
+- Upper: 0.0019
 Neither statistically significant Nor practically significant
 
-Sign Tests
+### 2.Sign Tests
 For each of your evaluation metrics, do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant. (These should be the answers from the "Sign Tests" quiz.)
 
 https://www.graphpad.com/quickcalcs/binomial2/
+
 Calculate the number of metrics that experiment group is greater than control group
 ![Sign Test](https://github.com/ShuangyangWu1/test-/blob/f745643c7a86ba69885d636be9ffbd1900500a37/Sign%20Test.png)
 
