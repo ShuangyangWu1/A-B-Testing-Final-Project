@@ -137,7 +137,7 @@ For each of your evaluation metrics, do a sign test using the day-by-day data, a
 
 https://www.graphpad.com/quickcalcs/binomial2/
 Calculate the number of metrics that experiment group is greater than control group
-!(https://github.com/ShuangyangWu1/test-/blob/f745643c7a86ba69885d636be9ffbd1900500a37/Sign%20Test.png)
+![Sign Test](https://github.com/ShuangyangWu1/test-/blob/f745643c7a86ba69885d636be9ffbd1900500a37/Sign%20Test.png)
 
 
 Summary
